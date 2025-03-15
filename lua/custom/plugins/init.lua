@@ -22,4 +22,6 @@ return {
       require('nvim-web-devicons').setup()
     end,
   },
+  { import = 'custom.plugins.extension-react' },
+  { import = 'custom.plugins.neo-tree' },
 }
